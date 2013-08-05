@@ -2,8 +2,6 @@
 
 from django_filters import views as filters_views
 
-__all__ = ['FilterMixin']
-
 
 class FilterMixin(filters_views.FilterMixin):
 

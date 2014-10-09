@@ -18,7 +18,7 @@ setup(
     author='Basil Shubin',
     author_email='basil.shubin@gmail.com',
     install_requires=[
-        'django-filter==0.7',
+        'django-filter>=0.8',
     ],
     classifiers=[
         'Environment :: Web Environment',

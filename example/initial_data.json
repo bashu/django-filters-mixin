@@ -1,0 +1,2199 @@
+[
+{
+  "fields": {
+    "code": "AED",
+    "name": "United Arab Emirates Dirham",
+    "symbol": "\u062f.\u0625",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 1
+},
+{
+  "fields": {
+    "code": "AFN",
+    "name": "Afghan Afghani",
+    "symbol": "\u060b",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 2
+},
+{
+  "fields": {
+    "code": "ALL",
+    "name": "Albanian Lek",
+    "symbol": "Lek",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 3
+},
+{
+  "fields": {
+    "code": "AMD",
+    "name": "Armenian Dram",
+    "symbol": "\u0564\u0580.",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 4
+},
+{
+  "fields": {
+    "code": "ANG",
+    "name": "Netherlands Antillean Guilder",
+    "symbol": "\u0192",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 5
+},
+{
+  "fields": {
+    "code": "AOA",
+    "name": "Angolan Kwanza",
+    "symbol": "Kz",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 6
+},
+{
+  "fields": {
+    "code": "ARS",
+    "name": "Argentine Peso",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 7
+},
+{
+  "fields": {
+    "code": "AUD",
+    "name": "Australian Dollar",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 8
+},
+{
+  "fields": {
+    "code": "AWG",
+    "name": "Aruban Florin",
+    "symbol": "\u0192",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 9
+},
+{
+  "fields": {
+    "code": "AZN",
+    "name": "Azerbaijani Manat",
+    "symbol": "\u043c\u0430\u043d",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 10
+},
+{
+  "fields": {
+    "code": "BAM",
+    "name": "Bosnia-Herzegovina Convertible Mark",
+    "symbol": "KM",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 11
+},
+{
+  "fields": {
+    "code": "BBD",
+    "name": "Barbadian Dollar",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 12
+},
+{
+  "fields": {
+    "code": "BDT",
+    "name": "Bangladeshi Taka",
+    "symbol": "\u09f3",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 13
+},
+{
+  "fields": {
+    "code": "BGN",
+    "name": "Bulgarian Lev",
+    "symbol": "\u043b\u0432",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 14
+},
+{
+  "fields": {
+    "code": "BHD",
+    "name": "Bahraini Dinar",
+    "symbol": "\u0628.\u062f.",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 15
+},
+{
+  "fields": {
+    "code": "BIF",
+    "name": "Burundian Franc",
+    "symbol": "FBu",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 16
+},
+{
+  "fields": {
+    "code": "BMD",
+    "name": "Bermudan Dollar",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 17
+},
+{
+  "fields": {
+    "code": "BND",
+    "name": "Brunei Dollar",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 18
+},
+{
+  "fields": {
+    "code": "BOB",
+    "name": "Bolivian Boliviano",
+    "symbol": "$b",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 19
+},
+{
+  "fields": {
+    "code": "BRL",
+    "name": "Brazilian Real",
+    "symbol": "R$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 20
+},
+{
+  "fields": {
+    "code": "BSD",
+    "name": "Bahamian Dollar",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 21
+},
+{
+  "fields": {
+    "code": "BTC",
+    "name": "Bitcoin",
+    "symbol": "",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 22
+},
+{
+  "fields": {
+    "code": "BTN",
+    "name": "Bhutanese Ngultrum",
+    "symbol": "Nu.",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 23
+},
+{
+  "fields": {
+    "code": "BWP",
+    "name": "Botswanan Pula",
+    "symbol": "P",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 24
+},
+{
+  "fields": {
+    "code": "BYR",
+    "name": "Belarusian Ruble",
+    "symbol": "p.",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 25
+},
+{
+  "fields": {
+    "code": "BZD",
+    "name": "Belize Dollar",
+    "symbol": "BZ$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 26
+},
+{
+  "fields": {
+    "code": "CAD",
+    "name": "Canadian Dollar",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 27
+},
+{
+  "fields": {
+    "code": "CDF",
+    "name": "Congolese Franc",
+    "symbol": "F",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 28
+},
+{
+  "fields": {
+    "code": "CHF",
+    "name": "Swiss Franc",
+    "symbol": "CHF",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 29
+},
+{
+  "fields": {
+    "code": "CLF",
+    "name": "Chilean Unit of Account (UF)",
+    "symbol": "",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 30
+},
+{
+  "fields": {
+    "code": "CLP",
+    "name": "Chilean Peso",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 31
+},
+{
+  "fields": {
+    "code": "CNY",
+    "name": "Chinese Yuan",
+    "symbol": "\u00a5",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 32
+},
+{
+  "fields": {
+    "code": "COP",
+    "name": "Colombian Peso",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 33
+},
+{
+  "fields": {
+    "code": "CRC",
+    "name": "Costa Rican Col\u00f3n",
+    "symbol": "\u20a1",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 34
+},
+{
+  "fields": {
+    "code": "CUC",
+    "name": "Cuban Convertible Peso",
+    "symbol": "",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 35
+},
+{
+  "fields": {
+    "code": "CUP",
+    "name": "Cuban Peso",
+    "symbol": "\u20b1",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 36
+},
+{
+  "fields": {
+    "code": "CVE",
+    "name": "Cape Verdean Escudo",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 37
+},
+{
+  "fields": {
+    "code": "CZK",
+    "name": "Czech Republic Koruna",
+    "symbol": "K\u010d",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 38
+},
+{
+  "fields": {
+    "code": "DJF",
+    "name": "Djiboutian Franc",
+    "symbol": "Fdj",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 39
+},
+{
+  "fields": {
+    "code": "DKK",
+    "name": "Danish Krone",
+    "symbol": "kr",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 40
+},
+{
+  "fields": {
+    "code": "DOP",
+    "name": "Dominican Peso",
+    "symbol": "RD$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 41
+},
+{
+  "fields": {
+    "code": "DZD",
+    "name": "Algerian Dinar",
+    "symbol": "\u062f\u062c",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 42
+},
+{
+  "fields": {
+    "code": "EEK",
+    "name": "Estonian Kroon",
+    "symbol": "kr",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 43
+},
+{
+  "fields": {
+    "code": "EGP",
+    "name": "Egyptian Pound",
+    "symbol": "\u00a3",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 44
+},
+{
+  "fields": {
+    "code": "ERN",
+    "name": "Eritrean Nakfa",
+    "symbol": "Nfk",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 45
+},
+{
+  "fields": {
+    "code": "ETB",
+    "name": "Ethiopian Birr",
+    "symbol": "Br",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 46
+},
+{
+  "fields": {
+    "code": "EUR",
+    "name": "Euro",
+    "symbol": "\u20ac",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 47
+},
+{
+  "fields": {
+    "code": "FJD",
+    "name": "Fijian Dollar",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 48
+},
+{
+  "fields": {
+    "code": "FKP",
+    "name": "Falkland Islands Pound",
+    "symbol": "\u00a3",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 49
+},
+{
+  "fields": {
+    "code": "GBP",
+    "name": "British Pound Sterling",
+    "symbol": "\u00a3",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 50
+},
+{
+  "fields": {
+    "code": "GEL",
+    "name": "Georgian Lari",
+    "symbol": "GEL",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 51
+},
+{
+  "fields": {
+    "code": "GGP",
+    "name": "Guernsey Pound",
+    "symbol": "",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 52
+},
+{
+  "fields": {
+    "code": "GHS",
+    "name": "Ghanaian Cedi",
+    "symbol": "\u20b5",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 53
+},
+{
+  "fields": {
+    "code": "GIP",
+    "name": "Gibraltar Pound",
+    "symbol": "\u00a3",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 54
+},
+{
+  "fields": {
+    "code": "GMD",
+    "name": "Gambian Dalasi",
+    "symbol": "D",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 55
+},
+{
+  "fields": {
+    "code": "GNF",
+    "name": "Guinean Franc",
+    "symbol": "FG",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 56
+},
+{
+  "fields": {
+    "code": "GTQ",
+    "name": "Guatemalan Quetzal",
+    "symbol": "Q",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 57
+},
+{
+  "fields": {
+    "code": "GYD",
+    "name": "Guyanaese Dollar",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 58
+},
+{
+  "fields": {
+    "code": "HKD",
+    "name": "Hong Kong Dollar",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 59
+},
+{
+  "fields": {
+    "code": "HNL",
+    "name": "Honduran Lempira",
+    "symbol": "L",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 60
+},
+{
+  "fields": {
+    "code": "HRK",
+    "name": "Croatian Kuna",
+    "symbol": "kn",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 61
+},
+{
+  "fields": {
+    "code": "HTG",
+    "name": "Haitian Gourde",
+    "symbol": "G",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 62
+},
+{
+  "fields": {
+    "code": "HUF",
+    "name": "Hungarian Forint",
+    "symbol": "Ft",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 63
+},
+{
+  "fields": {
+    "code": "IDR",
+    "name": "Indonesian Rupiah",
+    "symbol": "Rp",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 64
+},
+{
+  "fields": {
+    "code": "ILS",
+    "name": "Israeli New Sheqel",
+    "symbol": "\u20aa",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 65
+},
+{
+  "fields": {
+    "code": "IMP",
+    "name": "Manx pound",
+    "symbol": "",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 66
+},
+{
+  "fields": {
+    "code": "INR",
+    "name": "Indian Rupee",
+    "symbol": "Rs",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 67
+},
+{
+  "fields": {
+    "code": "IQD",
+    "name": "Iraqi Dinar",
+    "symbol": "\u0639\u062f",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 68
+},
+{
+  "fields": {
+    "code": "IRR",
+    "name": "Iranian Rial",
+    "symbol": "\ufdfc",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 69
+},
+{
+  "fields": {
+    "code": "ISK",
+    "name": "Icelandic Kr\u00f3na",
+    "symbol": "kr",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 70
+},
+{
+  "fields": {
+    "code": "JEP",
+    "name": "Jersey Pound",
+    "symbol": "\u00a3",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 71
+},
+{
+  "fields": {
+    "code": "JMD",
+    "name": "Jamaican Dollar",
+    "symbol": "J$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 72
+},
+{
+  "fields": {
+    "code": "JOD",
+    "name": "Jordanian Dinar",
+    "symbol": "JOD",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 73
+},
+{
+  "fields": {
+    "code": "JPY",
+    "name": "Japanese Yen",
+    "symbol": "\u00a5",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 74
+},
+{
+  "fields": {
+    "code": "KES",
+    "name": "Kenyan Shilling",
+    "symbol": "KSh",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 75
+},
+{
+  "fields": {
+    "code": "KGS",
+    "name": "Kyrgystani Som",
+    "symbol": "\u043b\u0432",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 76
+},
+{
+  "fields": {
+    "code": "KHR",
+    "name": "Cambodian Riel",
+    "symbol": "\u17db",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 77
+},
+{
+  "fields": {
+    "code": "KMF",
+    "name": "Comorian Franc",
+    "symbol": "KMF",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 78
+},
+{
+  "fields": {
+    "code": "KPW",
+    "name": "North Korean Won",
+    "symbol": "\u20a9",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 79
+},
+{
+  "fields": {
+    "code": "KRW",
+    "name": "South Korean Won",
+    "symbol": "\u20a9",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 80
+},
+{
+  "fields": {
+    "code": "KWD",
+    "name": "Kuwaiti Dinar",
+    "symbol": "\u062f.\u0643",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 81
+},
+{
+  "fields": {
+    "code": "KYD",
+    "name": "Cayman Islands Dollar",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 82
+},
+{
+  "fields": {
+    "code": "KZT",
+    "name": "Kazakhstani Tenge",
+    "symbol": "\u043b\u0432",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 83
+},
+{
+  "fields": {
+    "code": "LAK",
+    "name": "Laotian Kip",
+    "symbol": "\u20ad",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 84
+},
+{
+  "fields": {
+    "code": "LBP",
+    "name": "Lebanese Pound",
+    "symbol": "\u00a3",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 85
+},
+{
+  "fields": {
+    "code": "LKR",
+    "name": "Sri Lankan Rupee",
+    "symbol": "\u20a8",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 86
+},
+{
+  "fields": {
+    "code": "LRD",
+    "name": "Liberian Dollar",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 87
+},
+{
+  "fields": {
+    "code": "LSL",
+    "name": "Lesotho Loti",
+    "symbol": "L",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 88
+},
+{
+  "fields": {
+    "code": "LTL",
+    "name": "Lithuanian Litas",
+    "symbol": "Lt",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 89
+},
+{
+  "fields": {
+    "code": "LVL",
+    "name": "Latvian Lats",
+    "symbol": "Ls",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 90
+},
+{
+  "fields": {
+    "code": "LYD",
+    "name": "Libyan Dinar",
+    "symbol": "\u0644.\u062f",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 91
+},
+{
+  "fields": {
+    "code": "MAD",
+    "name": "Moroccan Dirham",
+    "symbol": "\u0645.\u062f.",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 92
+},
+{
+  "fields": {
+    "code": "MDL",
+    "name": "Moldovan Leu",
+    "symbol": "MDL",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 93
+},
+{
+  "fields": {
+    "code": "MGA",
+    "name": "Malagasy Ariary",
+    "symbol": "MGA",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 94
+},
+{
+  "fields": {
+    "code": "MKD",
+    "name": "Macedonian Denar",
+    "symbol": "\u0434\u0435\u043d",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 95
+},
+{
+  "fields": {
+    "code": "MMK",
+    "name": "Myanma Kyat",
+    "symbol": "K",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 96
+},
+{
+  "fields": {
+    "code": "MNT",
+    "name": "Mongolian Tugrik",
+    "symbol": "\u20ae",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 97
+},
+{
+  "fields": {
+    "code": "MOP",
+    "name": "Macanese Pataca",
+    "symbol": "MOP$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 98
+},
+{
+  "fields": {
+    "code": "MRO",
+    "name": "Mauritanian Ouguiya",
+    "symbol": "UM",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 99
+},
+{
+  "fields": {
+    "code": "MTL",
+    "name": "Maltese Lira",
+    "symbol": "",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 100
+},
+{
+  "fields": {
+    "code": "MUR",
+    "name": "Mauritian Rupee",
+    "symbol": "\u20a8",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 101
+},
+{
+  "fields": {
+    "code": "MVR",
+    "name": "Maldivian Rufiyaa",
+    "symbol": "Rf",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 102
+},
+{
+  "fields": {
+    "code": "MWK",
+    "name": "Malawian Kwacha",
+    "symbol": "MK",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 103
+},
+{
+  "fields": {
+    "code": "MXN",
+    "name": "Mexican Peso",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 104
+},
+{
+  "fields": {
+    "code": "MYR",
+    "name": "Malaysian Ringgit",
+    "symbol": "RM",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 105
+},
+{
+  "fields": {
+    "code": "MZN",
+    "name": "Mozambican Metical",
+    "symbol": "MT",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 106
+},
+{
+  "fields": {
+    "code": "NAD",
+    "name": "Namibian Dollar",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 107
+},
+{
+  "fields": {
+    "code": "NGN",
+    "name": "Nigerian Naira",
+    "symbol": "\u20a6",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 108
+},
+{
+  "fields": {
+    "code": "NIO",
+    "name": "Nicaraguan C\u00f3rdoba",
+    "symbol": "C$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 109
+},
+{
+  "fields": {
+    "code": "NOK",
+    "name": "Norwegian Krone",
+    "symbol": "kr",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 110
+},
+{
+  "fields": {
+    "code": "NPR",
+    "name": "Nepalese Rupee",
+    "symbol": "\u20a8",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 111
+},
+{
+  "fields": {
+    "code": "NZD",
+    "name": "New Zealand Dollar",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 112
+},
+{
+  "fields": {
+    "code": "OMR",
+    "name": "Omani Rial",
+    "symbol": "\ufdfc",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 113
+},
+{
+  "fields": {
+    "code": "PAB",
+    "name": "Panamanian Balboa",
+    "symbol": "B/.",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 114
+},
+{
+  "fields": {
+    "code": "PEN",
+    "name": "Peruvian Nuevo Sol",
+    "symbol": "S/.",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 115
+},
+{
+  "fields": {
+    "code": "PGK",
+    "name": "Papua New Guinean Kina",
+    "symbol": "K",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 116
+},
+{
+  "fields": {
+    "code": "PHP",
+    "name": "Philippine Peso",
+    "symbol": "\u20b1",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 117
+},
+{
+  "fields": {
+    "code": "PKR",
+    "name": "Pakistani Rupee",
+    "symbol": "\u20a8",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 118
+},
+{
+  "fields": {
+    "code": "PLN",
+    "name": "Polish Zloty",
+    "symbol": "z\u0142",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 119
+},
+{
+  "fields": {
+    "code": "PYG",
+    "name": "Paraguayan Guarani",
+    "symbol": "Gs",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 120
+},
+{
+  "fields": {
+    "code": "QAR",
+    "name": "Qatari Rial",
+    "symbol": "\ufdfc",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 121
+},
+{
+  "fields": {
+    "code": "RON",
+    "name": "Romanian Leu",
+    "symbol": "lei",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 122
+},
+{
+  "fields": {
+    "code": "RSD",
+    "name": "Serbian Dinar",
+    "symbol": "\u0414\u0438\u043d.",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 123
+},
+{
+  "fields": {
+    "code": "RUB",
+    "name": "Russian Ruble",
+    "symbol": "\u0440\u0443\u0431",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 124
+},
+{
+  "fields": {
+    "code": "RWF",
+    "name": "Rwandan Franc",
+    "symbol": "RF",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 125
+},
+{
+  "fields": {
+    "code": "SAR",
+    "name": "Saudi Riyal",
+    "symbol": "\ufdfc",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 126
+},
+{
+  "fields": {
+    "code": "SBD",
+    "name": "Solomon Islands Dollar",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 127
+},
+{
+  "fields": {
+    "code": "SCR",
+    "name": "Seychellois Rupee",
+    "symbol": "\u20a8",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 128
+},
+{
+  "fields": {
+    "code": "SDG",
+    "name": "Sudanese Pound",
+    "symbol": "SDG",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 129
+},
+{
+  "fields": {
+    "code": "SEK",
+    "name": "Swedish Krona",
+    "symbol": "kr",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 130
+},
+{
+  "fields": {
+    "code": "SGD",
+    "name": "Singapore Dollar",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 131
+},
+{
+  "fields": {
+    "code": "SHP",
+    "name": "Saint Helena Pound",
+    "symbol": "\u00a3",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 132
+},
+{
+  "fields": {
+    "code": "SLL",
+    "name": "Sierra Leonean Leone",
+    "symbol": "Le",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 133
+},
+{
+  "fields": {
+    "code": "SOS",
+    "name": "Somali Shilling",
+    "symbol": "S",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 134
+},
+{
+  "fields": {
+    "code": "SRD",
+    "name": "Surinamese Dollar",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 135
+},
+{
+  "fields": {
+    "code": "STD",
+    "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe Dobra",
+    "symbol": "Db",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 136
+},
+{
+  "fields": {
+    "code": "SVC",
+    "name": "Salvadoran Col\u00f3n",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 137
+},
+{
+  "fields": {
+    "code": "SYP",
+    "name": "Syrian Pound",
+    "symbol": "\u00a3",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 138
+},
+{
+  "fields": {
+    "code": "SZL",
+    "name": "Swazi Lilangeni",
+    "symbol": "L",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 139
+},
+{
+  "fields": {
+    "code": "THB",
+    "name": "Thai Baht",
+    "symbol": "\u0e3f",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 140
+},
+{
+  "fields": {
+    "code": "TJS",
+    "name": "Tajikistani Somoni",
+    "symbol": "TJS",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 141
+},
+{
+  "fields": {
+    "code": "TMT",
+    "name": "Turkmenistani Manat",
+    "symbol": "TLVL",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 142
+},
+{
+  "fields": {
+    "code": "TND",
+    "name": "Tunisian Dinar",
+    "symbol": "\u062f.\u062a ",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 143
+},
+{
+  "fields": {
+    "code": "TOP",
+    "name": "Tongan Pa\u02bbanga",
+    "symbol": "T$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 144
+},
+{
+  "fields": {
+    "code": "TRY",
+    "name": "Turkish Lira",
+    "symbol": "TL",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 145
+},
+{
+  "fields": {
+    "code": "TTD",
+    "name": "Trinidad and Tobago Dollar",
+    "symbol": "TT$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 146
+},
+{
+  "fields": {
+    "code": "TWD",
+    "name": "New Taiwan Dollar",
+    "symbol": "NT$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 147
+},
+{
+  "fields": {
+    "code": "TZS",
+    "name": "Tanzanian Shilling",
+    "symbol": "TZS",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 148
+},
+{
+  "fields": {
+    "code": "UAH",
+    "name": "Ukrainian Hryvnia",
+    "symbol": "\u20b4",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 149
+},
+{
+  "fields": {
+    "code": "UGX",
+    "name": "Ugandan Shilling",
+    "symbol": "USh",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 150
+},
+{
+  "fields": {
+    "code": "USD",
+    "name": "United States Dollar",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 151
+},
+{
+  "fields": {
+    "code": "UYU",
+    "name": "Uruguayan Peso",
+    "symbol": "$U",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 152
+},
+{
+  "fields": {
+    "code": "UZS",
+    "name": "Uzbekistan Som",
+    "symbol": "\u043b\u0432",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 153
+},
+{
+  "fields": {
+    "code": "VEF",
+    "name": "Venezuelan Bol\u00edvar Fuerte",
+    "symbol": "Bs",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 154
+},
+{
+  "fields": {
+    "code": "VND",
+    "name": "Vietnamese Dong",
+    "symbol": "\u20ab",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 155
+},
+{
+  "fields": {
+    "code": "VUV",
+    "name": "Vanuatu Vatu",
+    "symbol": "Vt",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 156
+},
+{
+  "fields": {
+    "code": "WST",
+    "name": "Samoan Tala",
+    "symbol": "WS$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 157
+},
+{
+  "fields": {
+    "code": "XAF",
+    "name": "CFA Franc BEAC",
+    "symbol": "FCFA",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 158
+},
+{
+  "fields": {
+    "code": "XAG",
+    "name": "Silver (troy ounce)",
+    "symbol": "",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 159
+},
+{
+  "fields": {
+    "code": "XAU",
+    "name": "Gold (troy ounce)",
+    "symbol": "",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 160
+},
+{
+  "fields": {
+    "code": "XCD",
+    "name": "East Caribbean Dollar",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 161
+},
+{
+  "fields": {
+    "code": "XDR",
+    "name": "Special Drawing Rights",
+    "symbol": "",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 162
+},
+{
+  "fields": {
+    "code": "XOF",
+    "name": "CFA Franc BCEAO",
+    "symbol": "CFA",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 163
+},
+{
+  "fields": {
+    "code": "XPF",
+    "name": "CFP Franc",
+    "symbol": "F",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 164
+},
+{
+  "fields": {
+    "code": "YER",
+    "name": "Yemeni Rial",
+    "symbol": "\ufdfc",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 165
+},
+{
+  "fields": {
+    "code": "ZAR",
+    "name": "South African Rand",
+    "symbol": "R",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 166
+},
+{
+  "fields": {
+    "code": "ZMK",
+    "name": "Zambian Kwacha (pre-2013)",
+    "symbol": "",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 167
+},
+{
+  "fields": {
+    "code": "ZMW",
+    "name": "Zambian Kwacha",
+    "symbol": "ZK",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 168
+},
+{
+  "fields": {
+    "code": "ZWL",
+    "name": "Zimbabwean Dollar",
+    "symbol": "$",
+    "is_active": false,
+    "is_default": false,
+    "factor": "1.0000",
+    "is_base": false
+  },
+  "model": "currencies.currency",
+  "pk": 169
+}
+]

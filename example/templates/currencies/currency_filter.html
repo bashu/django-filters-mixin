@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% if filter.form %}<form action="." method="GET">{% for field in filter.form %}{{ field }}{% endfor %}</form>{% endif %}</span>
+<ul class="">
+  {% for o in object_list %}
+  <li>{{ o.name }}, {{ o.code }}</li>
+  {% endfor %}
+</ul>
+{% include "pagination/pagination.html" %}
+{% endblock %}

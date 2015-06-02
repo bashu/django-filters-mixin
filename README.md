@@ -2,9 +2,9 @@
 
 Simple integration between [django-filter](https://github.com/alex/django-filter) and [Django Pagination](https://docs.djangoproject.com/en/dev/topics/pagination/)
 
-[![Latest Version](https://pypip.in/version/django-filters-mixin/badge.svg)](https://pypi.python.org/pypi/django-filters-mixin/)
-[![Downloads](https://pypip.in/download/django-filters-mixin/badge.svg)](https://pypi.python.org/pypi/django-filters-mixin/)
-[![License](https://pypip.in/license/django-filters-mixin/badge.svg)](https://pypi.python.org/pypi/django-filters-mixin/)
+[![Latest Version](https://img.shields.io/pypi/v/django-filters-mixin.svg)](https://pypi.python.org/pypi/django-filters-mixin/)
+[![Downloads](https://img.shields.io/pypi/dm/django-filters-mixin.svg)](https://pypi.python.org/pypi/django-filters-mixin/)
+[![License](https://img.shields.io/github/license/bashu/django-filters-mixin.svg)](https://pypi.python.org/pypi/django-filters-mixin/)
 
 ### Requirements
 

@@ -11,15 +11,13 @@ Simple integration between [django-filter](https://github.com/alex/django-filter
 You must have *django-filter* installed and configured, see the [django-filter documentation](https://github.com/alex/django-filter) for details and setup instructions.
 
 ## Installation
-
 ```shell
-$ pip install django-filters-mixin
+pip install django-filters-mixin
 ```
 
 ## Usage
 
 The ``FilterMixin`` allows to use pagination together with filtering
-
 ```python
 # views.py
 

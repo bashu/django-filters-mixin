@@ -21,6 +21,7 @@ setup(
         'django-filter>=0.8',
     ],
     classifiers=[
+        'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
         'Framework :: Django',
         'Intended Audience :: Developers',

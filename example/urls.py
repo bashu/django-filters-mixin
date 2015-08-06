@@ -1,6 +1,6 @@
 from django import forms
 from django.utils.translation import ugettext
-from django.conf.urls import patterns, include, url
+from django.conf.urls import patterns, url
 
 import django_filters
 from django_filters.filterset import ORDER_BY_FIELD

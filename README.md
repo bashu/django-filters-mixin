@@ -5,7 +5,6 @@ Simple integration between [django-filter](https://github.com/alex/django-filter
 [![Latest Version](https://img.shields.io/pypi/v/django-filters-mixin.svg)](https://pypi.python.org/pypi/django-filters-mixin/)
 [![Downloads](https://img.shields.io/pypi/dm/django-filters-mixin.svg)](https://pypi.python.org/pypi/django-filters-mixin/)
 [![License](https://img.shields.io/github/license/bashu/django-filters-mixin.svg)](https://pypi.python.org/pypi/django-filters-mixin/)
-[![Code Health](https://landscape.io/github/bashu/django-filters-mixin/develop/landscape.svg?style=flat)](https://landscape.io/github/bashu/django-filters-mixin/develop)
 
 ### Requirements
 

@@ -1,6 +1,6 @@
 from django import forms
 from django.utils.translation import ugettext
-from django.conf.urls import patterns, include, url
+from django.conf.urls import patterns, url
 
 import django_filters
 from django_filters.filterset import ORDER_BY_FIELD
@@ -13,7 +13,7 @@ from filters.views import FilterMixin
 class CurrencyFilterForm(forms.Form):
 
     def __init__(self, data={}, *args, **kwargs):
-        super(CurrencyFilterForm, self).__init__(data, *args, **kwargs)
+        super(CurrencyFilterForm, self).__init__(data, *args, **kwargs)  # NOQA
         try:
             self.fields[ORDER_BY_FIELD].widget.attrs = {
                 'onchange': "this.form.submit();",
@@ -24,7 +24,7 @@ class CurrencyFilterForm(forms.Form):
         
 class CurrencyFilter(django_filters.FilterSet):
 
-    class Meta:
+    class Meta:  # pylint: disable=C1001
         form = CurrencyFilterForm
         model = Currency
         fields = []
@@ -41,5 +41,5 @@ class CurrencyListView(FilterMixin, django_filters.views.FilterView):
 
     
 urlpatterns = patterns('',
-    (r'^$', CurrencyListView.as_view()),                       
+    url(r'^$', CurrencyListView.as_view()),                       
 )

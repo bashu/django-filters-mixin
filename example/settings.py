@@ -33,9 +33,12 @@ TEMPLATE_DIRS = (
 # Application definition
 
 PROJECT_APPS = [
+    'filters',
 ]
 
 INSTALLED_APPS = [
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
     'django.contrib.staticfiles',
 
     'currencies',

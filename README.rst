@@ -57,5 +57,5 @@ good example...
 You need Django 1.4 or above to run that. It might run on older
 versions but that is not tested.
 
-. _django-filter: https://github.com/alex/django-filter
-. _pagination: https://docs.djangoproject.com/en/dev/topics/pagination/
+.. _django-filter: https://github.com/alex/django-filter
+.. _pagination: https://docs.djangoproject.com/en/dev/topics/pagination/

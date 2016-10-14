@@ -1,6 +1,6 @@
 from django import forms
 from django.utils.translation import ugettext
-from django.conf.urls import patterns, url
+from django.conf.urls import url
 
 import django_filters
 from django_filters.filterset import ORDER_BY_FIELD
@@ -40,6 +40,6 @@ class CurrencyListView(FilterMixin, django_filters.views.FilterView):
     filterset_class = CurrencyFilter
 
 
-urlpatterns = patterns('',
+urlpatterns = [
     url(r'^$', CurrencyListView.as_view()),
-)
+]

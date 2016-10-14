@@ -21,7 +21,7 @@ class CurrencyFilterForm(forms.Form):
         except KeyError:
             pass
 
-        
+
 class CurrencyFilter(django_filters.FilterSet):
 
     class Meta:  # pylint: disable=C1001
@@ -33,13 +33,13 @@ class CurrencyFilter(django_filters.FilterSet):
             ('-code', ugettext("Z-A")),
         )
 
-        
+
 class CurrencyListView(FilterMixin, django_filters.views.FilterView):
     model = Currency
     paginate_by = 12
     filterset_class = CurrencyFilter
 
-    
+
 urlpatterns = patterns('',
-    url(r'^$', CurrencyListView.as_view()),                       
+    url(r'^$', CurrencyListView.as_view()),
 )

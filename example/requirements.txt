@@ -1,3 +1,3 @@
 django
-django-filter
-django-simple-currencies
+django-filter<0.15
+django-currencies

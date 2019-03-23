@@ -3,12 +3,13 @@ from django.utils.translation import ugettext
 from django.conf.urls import url
 
 import django_filters
-from django_filters.filterset import ORDER_BY_FIELD
+from django_filters.filters import OrderingFilter
 
 from currencies.models import Currency
 
 from filters.views import FilterMixin
 
+ORDER_BY_FIELD = 'o'
 
 class CurrencyFilterForm(forms.Form):
 
@@ -24,14 +25,23 @@ class CurrencyFilterForm(forms.Form):
 
 class CurrencyFilter(django_filters.FilterSet):
 
+    o = OrderingFilter(
+        # tuple-mapping retains order
+        fields=(
+            ('code', 'code'),
+        ),
+
+        # labels do not need to retain order
+        field_labels={
+            'code': ugettext("A-Z"),
+            '-code': ugettext("Z-A"),
+        }
+    )
+
     class Meta:  # pylint: disable=C1001
         form = CurrencyFilterForm
         model = Currency
         fields = []
-        order_by = (
-            ('code', ugettext("A-Z")),
-            ('-code', ugettext("Z-A")),
-        )
 
 
 class CurrencyListView(FilterMixin, django_filters.views.FilterView):

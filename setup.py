@@ -26,7 +26,7 @@ setup(
     license='BSD License',
 
     install_requires=[
-        'django-filter<0.15',
+        'django-filter>0.15',
     ],
     requires=[
         'Django (>=1.4)',

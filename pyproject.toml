@@ -32,7 +32,7 @@ classifiers = [
 dynamic = [ "readme" ]
 dependencies = [
   "django>=5.2",
-  "django-filter>0.15",
+  "django-filter>=26.2",
 ]
 urls.download = "https://github.com/bashu/django-filters-mixin/zipball/master"
 urls.homepage = "https://github.com/bashu/django-filters-mixin/"

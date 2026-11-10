@@ -1,2 +1,2 @@
 django>=5.2
-django-filter>0.15
+django-filter>=26.2

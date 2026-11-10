@@ -1,7 +1,7 @@
 Changes
 -------
 
-0.2.0 (unreleased)
+0.2.0 (2026-11-10)
 ~~~~~~~~~~~~~~~~~~
 
 * Now requires Python 3.11+ and Django 5.2+. Python 2 and older Django

@@ -4,7 +4,7 @@ requires = [ "setuptools>=61" ]
 
 [project]
 name = "django-filters-mixin"
-version = "0.1.4"
+version = "0.2.0"
 description = "Simple integration between django-filter and Django pagination."
 license = "BSD-3-Clause"
 authors = [ { name = "Basil Shubin", email = "basil.shubin@gmail.com" } ]

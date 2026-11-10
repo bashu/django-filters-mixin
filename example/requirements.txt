@@ -1,3 +1,2 @@
-django
-django-filter<0.15
-django-currencies
+django>=5.2
+django-filter>0.15

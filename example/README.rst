@@ -2,27 +2,26 @@ Example
 =======
 
 To run the example application, make sure you have the required
-packages installed.  You can do this using following commands :
+packages installed. From the root of the source checkout:
 
 .. code-block:: bash
 
-    mkvirtualenv example
-    pip install -r example/requirements.txt
+    uv sync
 
-This assumes you already have ``virtualenv`` and ``virtualenvwrapper``
-installed and configured.
-
-Next, you can setup the django instance using :
+Next, set up the database and load the sample currencies:
 
 .. code-block:: bash
 
-    python example/manage.py migrate
-    python example/manage.py loaddata example/initial_data.json
+    uv run python example/manage.py migrate
+    uv run python example/manage.py loaddata example/initial_data.json
 
-And run it :
+And run it:
 
 .. code-block:: bash
 
-    python example/manage.py runserver
+    uv run python example/manage.py runserver
+
+Then open http://127.0.0.1:8000/ - the list of currencies is paginated
+and can be ordered with the drop-down, and both work together.
 
 Good luck!

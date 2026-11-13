@@ -2,12 +2,12 @@
 
 [Full report](https://htmlpreview.github.io/?https://github.com/bashu/django-filters-mixin/blob/python-coverage-comment-action-data/htmlcov/index.html)
 
-| Name                    |    Stmts |     Miss |    Cover |   Missing |
-|------------------------ | -------: | -------: | -------: | --------: |
-| filters/\_\_init\_\_.py |        0 |        0 |     100% |           |
-| filters/models.py       |        0 |        0 |     100% |           |
-| filters/views.py        |       10 |        0 |     100% |           |
-| **TOTAL**               |   **10** |    **0** | **100%** |           |
+| Name                        |    Stmts |     Miss |    Cover |   Missing |
+|---------------------------- | -------: | -------: | -------: | --------: |
+| src/filters/\_\_init\_\_.py |        0 |        0 |     100% |           |
+| src/filters/models.py       |        0 |        0 |     100% |           |
+| src/filters/views.py        |       12 |        0 |     100% |           |
+| **TOTAL**                   |   **12** |    **0** | **100%** |           |
 
 
 ## Setup coverage badge

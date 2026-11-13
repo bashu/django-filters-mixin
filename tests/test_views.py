@@ -26,25 +26,26 @@ class UserListView(FilterMixin, FilterView):
 
 
 @pytest.mark.django_db
-def test_pagination_with_filtering():
+def test_page_parameter_not_passed_to_filterset() -> None:
+
     for name in ("alice", "bob", "carol"):
         User.objects.create(username=name, is_staff=True)
+
     User.objects.create(username="dave", is_staff=False)
 
     request = RequestFactory().get("/", {"page": "2", "is_staff": "true"})
     response = UserListView.as_view()(request)
-
     response.render()
 
     assert response.status_code == HTTPStatus.OK
     assert response.context_data["filter"].is_bound
     assert response.context_data["page_obj"].number == 2  # noqa: PLR2004
-    assert [u.username for u in response.context_data["object_list"]] == ["carol"]
+    assert [user.username for user in response.context_data["object_list"]] == ["carol"]
     assert response.content.decode().split() == ["carol", "page", "2", "of", "2"]
 
 
 @pytest.mark.django_db
-def test_filtering_without_pagination_parameter():
+def test_filtering_without_page_parameter() -> None:
     User.objects.create(username="alice", is_staff=True)
     User.objects.create(username="bob", is_staff=False)
 

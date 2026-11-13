@@ -1,6 +1,15 @@
 Changes
 -------
 
+0.2.1 (2026-11-13)
+~~~~~~~~~~~~~~~~~~
+
+* Switched the build backend from setuptools to hatchling and moved the
+  package to the ``src`` layout. The import path ``filters`` is unchanged.
+* Moved the test suite out of the package into the top-level ``tests``
+  directory; tests are no longer shipped in the wheel or sdist.
+* Removed the ``example`` project.
+
 0.2.0 (2026-11-10)
 ~~~~~~~~~~~~~~~~~~
 

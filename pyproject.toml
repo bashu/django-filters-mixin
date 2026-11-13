@@ -1,12 +1,13 @@
 [build-system]
-build-backend = "setuptools.build_meta"
-requires = [ "setuptools>=61" ]
+build-backend = "hatchling.build"
+requires = [ "hatch-fancy-pypi-readme>=24.1", "hatchling>=1.27" ]
 
 [project]
 name = "django-filters-mixin"
-version = "0.2.0"
+version = "0.2.1"
 description = "Simple integration between django-filter and Django pagination."
 license = "BSD-3-Clause"
+license-files = [ "LICENSE" ]
 authors = [ { name = "Basil Shubin", email = "basil.shubin@gmail.com" } ]
 requires-python = ">=3.11"
 classifiers = [
@@ -39,22 +40,20 @@ urls.homepage = "https://github.com/bashu/django-filters-mixin/"
 
 [dependency-groups]
 dev = [
-  "coverage==7.16.2",
-  "django-stubs[compatible-mypy]==6.1.2",
+  "coverage==7.17.2",
   "django-upgrade==1.33.0",
-  "mypy==2.4.0",
-  "pre-commit==4.6.2",
-  "pytest==9.1.1",
+  "pre-commit==4.7.0",
+  "pytest==9.2.0",
   "pytest-django==4.14.0",
   "pytest-sugar==1.1.1",
-  "ruff==0.16.10",
+  "ruff==0.17.4",
 ]
 
-[tool.setuptools]
-packages.find.include = [ "filters" ]
-packages.find.exclude = [ "filters.tests*" ]
-dynamic.readme = { file = [ "README.rst", "CHANGES.rst" ], content-type = "text/x-rst" }
-zip-safe = false
+[tool.hatch]
+metadata.hooks.fancy-pypi-readme.content-type = "text/x-rst"
+metadata.hooks.fancy-pypi-readme.fragments = [ { path = "README.rst" }, { text = "\n" }, { path = "CHANGES.rst" } ]
+build.targets.wheel.packages = [ "src/filters" ]
+build.targets.sdist.only-include = [ "src", "CHANGES.rst", "README.rst" ]
 
 # ==== ruff ====
 [tool.ruff]
@@ -130,36 +129,11 @@ lint.isort.sections.django = [ "django" ]
 [tool.pyproject-fmt]
 keep_full_version = true
 
-# ==== mypy ====
-[tool.mypy]
-ignore_missing_imports = true
-python_version = "3.15"
-check_untyped_defs = true
-warn_redundant_casts = true
-warn_unused_ignores = true
-plugins = [
-  "mypy_django_plugin.main",
-]
-warn_unused_configs = true
-overrides = [
-  # Django migrations should not produce any errors:
-  { module = "*.migrations.*", ignore_errors = true },
-]
-
-[tool.django-stubs]
-django_settings_module = "filters.tests.settings"
-
-[tool.pytest]
-ini_options.minversion = "6.0"
-ini_options.python_files = [
-  "test_*.py",
-  "tests.py",
-]
 # ==== pytest ====
-ini_options.addopts = [ "--ds=filters.tests.settings", "--reuse-db", "--import-mode=importlib" ]
+[tool.pytest]
+ini_options.DJANGO_SETTINGS_MODULE = "tests.settings"
 
-# ==== Coverage ====
+# ==== coverage ====
 [tool.coverage]
 run.source = [ "filters" ]
-run.omit = [ "*/migrations/*", "*/tests/*" ]
 run.relative_files = true

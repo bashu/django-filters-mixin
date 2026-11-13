@@ -4,7 +4,7 @@ requires = [ "hatch-fancy-pypi-readme>=24.1", "hatchling>=1.27" ]
 
 [project]
 name = "django-filters-mixin"
-version = "0.2.0"
+version = "0.2.1"
 description = "Simple integration between django-filter and Django pagination."
 license = "BSD-3-Clause"
 license-files = [ "LICENSE" ]

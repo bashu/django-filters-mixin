@@ -15,9 +15,6 @@ django-filters-mixin
 
 Simple integration between django-filter_ and pagination_.
 
-Maintained by `Basil Shubin <https://github.com/bashu/>`_, and some great
-`contributors <https://github.com/bashu/django-filters-mixin/contributors>`_.
-
 Requirements
 ------------
 
@@ -59,10 +56,6 @@ filterset, so it is never treated as a filter value.
         filterset_class = CustomFilterSet
         paginate_by = 12
         ...
-
-Please see the ``example`` application. This application is used to
-manually test the functionalities of this package. This also serves as
-a good example.
 
 Testing
 -------

@@ -2,7 +2,7 @@ SECRET_KEY = "DUMMY_SECRET_KEY"  # noqa: S105
 
 # Application definition
 
-PROJECT_APPS = ["filters.tests", "filters"]
+PROJECT_APPS = ["tests", "filters"]
 
 
 INSTALLED_APPS = [

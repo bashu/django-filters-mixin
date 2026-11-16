@@ -40,13 +40,13 @@ urls.homepage = "https://github.com/bashu/django-filters-mixin/"
 
 [dependency-groups]
 dev = [
-  "coverage==7.17.2",
+  "coverage==7.17.3",
   "django-upgrade==1.33.0",
   "pre-commit==4.7.0",
   "pytest==9.2.0",
   "pytest-django==4.14.0",
   "pytest-sugar==1.1.1",
-  "ruff==0.17.4",
+  "ruff==0.17.5",
 ]
 
 [tool.hatch]
